@@ -25,7 +25,7 @@ spec:
   selector:
     matchLabels:
       role: database
-  replicas: 5
+  replicas: 1
   strategy:
     type: Recreate
   template:
